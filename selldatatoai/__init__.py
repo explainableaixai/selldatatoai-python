@@ -1,4 +1,4 @@
-"""selldatatoai: Python client for the Data Asset Score API (https://www.selldatatoai.com/api/)."""
+"""selldatatoai: Python client for the AI Data Value Score API (https://www.selldatatoai.com/api/)."""
 from .client import BATCH_MAX, VERSION, DataAssetScoreClient, SellDataToAIError
 
 __version__ = VERSION

@@ -1,6 +1,6 @@
 # selldatatoai for Python
 
-`selldatatoai` scores companies for AI data deals from Python. You pass a website; the API answers with a 0 to 100 [Data Asset Score](https://www.selldatatoai.com/data-asset-score/), a grade, the data the company likely holds and how long it has been online.
+`selldatatoai` scores companies for AI data deals from Python. You pass a website; the API answers with a 0 to 100 [AI Data Value Score](https://www.selldatatoai.com/data-asset-score/), a grade, the data the company likely holds and how long it has been online.
 
 ```bash
 pip install selldatatoai
@@ -8,7 +8,7 @@ pip install selldatatoai
 
 Requires Python 3.7 or newer and `requests`. The package also installs a `selldatatoai` command for scoring a text file of domains into a CSV.
 
-The service behind it is [selldatatoai.com](https://www.selldatatoai.com/), which keeps an index of 102 million domains, 99.99% of the active internet, together with each domain's history.
+The service behind it is [selldatatoai.com](https://www.selldatatoai.com/), which keeps an index of 120 million domains, 99.99% of the active internet, together with each domain's history.
 
 ## Who this is for
 
@@ -207,7 +207,7 @@ You can hold three open batches per key. `score_many` sends them one after anoth
 
 ## Making sense of the numbers
 
-The score gathers several factor groups into one number. The [how the Data Asset Score works](https://www.selldatatoai.com/how-the-data-asset-score-works/) page describes the data behind each group. The exact weights are not published.
+The score gathers several factor groups into one number. The [how the AI Data Value Score works](https://www.selldatatoai.com/how-the-data-asset-score-works/) page describes the data behind each group. The exact weights are not published.
 
 A few reading tips:
 
@@ -249,13 +249,13 @@ When a buyer asks for one data type across a whole market, the website also sell
 
 Paid plans only, from $99 a month: Basic $99 for 5,000 lookups, Pro $299 for 25,000 with batch scoring, Scale $799 for 100,000 with batch scoring. The website demo allows 5 checks a day if you want to see the output before you subscribe. Your key appears in your dashboard as soon as the payment completes.
 
-Company lists are not part of any API plan. They are one-time files of the top 3,000 US companies per sector, from $249 a list, delivered by email links that work for 30 days.
+Company lists are not part of any API plan. They are one-time files of the top 3,000 US companies per sector, from $199 a list, delivered by email links that work for 30 days.
 
 ## FAQ
 
 ### What does the selldatatoai package do?
 
-The selldatatoai package is the Python client for the Data Asset Score API at selldatatoai.com. It scores a company website from 0 to 100 for the data AI buyers want and returns the grade, status, data systems, likely data assets and web history.
+The selldatatoai package is the Python client for the AI Data Value Score API at selldatatoai.com. It scores a company website from 0 to 100 for the data AI buyers want and returns the grade, status, data systems, likely data assets and web history.
 
 ### Does it support asyncio?
 

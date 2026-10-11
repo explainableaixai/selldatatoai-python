@@ -1,11 +1,11 @@
-"""Client for the Data Asset Score API at https://www.selldatatoai.com/api/"""
+"""Client for the AI Data Value Score API at https://www.selldatatoai.com/api/"""
 import time
 
 import requests
 
 __all__ = ["DataAssetScoreClient", "SellDataToAIError", "BATCH_MAX"]
 
-VERSION = "1.0.0"
+VERSION = "1.0.1"
 DEFAULT_BASE = "https://www.selldatatoai.com/api/v1"
 USER_AGENT = "selldatatoai-python/%s (+https://www.selldatatoai.com)" % VERSION
 BATCH_MAX = 100
